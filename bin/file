@@ -1,0 +1,17 @@
+{
+   "intention" : [
+      {
+         "intent" : "null",
+         "match_sent" : "null",
+         "nbest" : 1,
+         "sorce" : 0.0
+      }
+   ],
+   "node" : "bloodPressure",
+   "rc" : 0,
+   "semantic" : {
+      "slot" : null
+   },
+   "text" : "高高压一百一十八",
+   "version" : "1013"
+}
