@@ -35,7 +35,7 @@ int CLibLoader::Initialize(std::string strFile)
 
 	if (func_IESInit)
 	{
-		int nRet = func_IESInit("/home/xuyan2/robocall/ROBOCALL_Build1039/iris/IES_Server/config_linux/sc.cfu");
+		int nRet = func_IESInit(m_strCfg.c_str());
 		if (0 != nRet)
 		{
 			LOG_ERROR << "func_IESInit failed";

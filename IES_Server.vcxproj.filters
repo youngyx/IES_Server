@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e6f53730-185d-42ec-8ce7-ae4e6696acaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{c992a4c1-ef32-437b-9303-838251c6a071}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CLibLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CStringUtil.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CTcpServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IES.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ThreadPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WorkThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\CConfig.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CLibLoader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CTcpServer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ThreadPool.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WorkThread.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

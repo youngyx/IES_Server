@@ -30,9 +30,13 @@ public:
 public:
 	int Initialize(std::string strFile);
 	int Uninitialize();
-
+	void SetCfg(const std::string strCfg)
+	{
+		m_strCfg = strCfg;
+	}
 private:
 	CLibLoader();
 private:
+	std::string	m_strCfg;
 	void		*m_pHandle = nullptr;
 };
